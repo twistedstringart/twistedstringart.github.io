@@ -1,5 +1,7 @@
 #testdiv {
-    width:500px;
+    width:1000px;
+    padding-inline: 10%;
     margin:auto;
-    color: pink;
+    background-color: pink;
+    
 }
