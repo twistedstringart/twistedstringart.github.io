@@ -4,12 +4,58 @@
     max-width: 100%;
 }
 body {
-    background-color: white;
+    background-color: black;
+    font-family: Andale Mono, monospace;
 }
-#testdiv {
-    width:40%;
+#header {
+  
+}
+#maincontent {
+   height: 80%;
+   background-color: purple;
+}
+#imgbackground {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+#headerimg {
+    height: 50%;
+    width: 26%;
+}
+#navbartoplevel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: skewX(5deg);
     
-    margin:auto;
-    background-color: pink;
-    padding-inline: 20%;
+    
 }
+#navbartoplevel div {
+    width: 10%;
+    padding-inline: 5%;
+}
+.newbutton {
+    background-color: black;
+    color: white;
+    border-radius: 10em;
+    font-size: 14px;
+    font-family: Andale Mono, monospace;
+    font-weight: 300;
+    padding: 1em 2em;
+    padding-inline: 3em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid white;
+    box-shadow: 0 0 0 0 white;
+  }
+  
+.newbutton:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(218, 167, 235);
+};
+  
+.newbutton:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+};
