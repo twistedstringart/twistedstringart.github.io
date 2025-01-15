@@ -11,7 +11,7 @@ body {
   
 }
 #maincontent {
-   height: 80%;
+   height: 60%;
    background-color: purple;
 }
 #imgbackground {
@@ -35,7 +35,7 @@ body {
     width: 10%;
     padding-inline: 5%;
 }
-.newbutton {
+/* .newbutton {
     background-color: black;
     color: white;
     border-radius: 10em;
@@ -58,4 +58,4 @@ body {
 .newbutton:active {
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 black;
-};
+}; */

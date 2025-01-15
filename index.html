@@ -2,9 +2,42 @@
 <html lang="en-US">
     <script>
         /*
-        Determining screen size of device being used to view the website for styling purposes
+        Determines which content to display in main body (div id = "maincontent")
+        */
+        let currselect = 'aboutme';
+
+        function buttonPressed(text) {
+            let currhtml = document.getElementById(currselect);
+            currhtml.style.display = "none";
+            switch(text) {
+                case 'aboutmebutton':
+                    currselect = 'aboutme'
+                    break;
+                case 'gallerybutton':
+                    currselect = 'gallery'
+                    break;
+                case 'commissionsbutton':
+                    currselect = 'commissions'
+                    break;
+            }
+            let newhtml = document.getElementById(currselect);
+            newhtml.style.display = "block";
+        }
+
+        /*
+        Prepares email when submit button is pressed on commissions form
         */
 
+        function sendCommmission() {
+            let commissionbody = document.getElementById("emailbody").value;
+            const form = document.getElementById("commissionform");
+            const enc = "aGlpNDcxNzAyQGdtYWlsLmNvbQ==";
+            const name = document.getElementById("namefield").value;
+            form.setAttribute("action", "mailto:".concat(atob(enc))
+            .concat("?subject=Commission Request").concat("&body=")
+            .concat("Name: ").concat(name).concat("%0D%0A").concat("%0D%0A")
+            .concat("Description of Idea: ").concat(commissionbody));
+        }
 
     </script>
     <head>
