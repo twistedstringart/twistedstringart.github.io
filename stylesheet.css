@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 #header {
-
+    padding-bottom: 2%;
 }
 #imgbackground {
     height: 100%;
@@ -70,9 +70,7 @@ body {
     box-shadow: 0 0 0 0 black;
 }
 
-#maincontent {
-    padding-top: 2%;
-}
+#maincontent {}
 
 #aboutmeparagraph {
     color: white;
