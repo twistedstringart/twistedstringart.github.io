@@ -66,7 +66,7 @@ body {
 }
 .navbutton:hover {
     transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 rgb(218, 167, 235);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221);
 }
   
 .navbutton:active {
@@ -90,16 +90,34 @@ body {
 #namefield {
     text-align: left;
     padding-right: 20%;
-    max-width: 220px;
+    border-radius: 17px;
+    box-shadow: 0 0 0 3px #000;
+    border: 1px solid black;
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221);
+    /* border-radius: 10em;
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221); */
 }
 
 #emailbody {
     padding-right: 20%;
-    padding-bottom: 20%;
+    padding-bottom: 25%;
     text-align: left;
+    border-radius: 17px;
+    box-shadow: 0 0 0 3px #000;
+    border: 1px solid black;
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221);
+    /* border-radius: 5em;
+    max-width: 130px;
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221); */
 }
 #submitbuttoncontainer {
-    padding-top: 2%;
+    padding-top: 3%;
+    min-height: 30px;
+    max-height: 35px;
     padding-bottom: 5%;
 }
 #submitbutton {
@@ -107,10 +125,18 @@ body {
     color: white;
     transform: skewX(5deg);
     border: 1px solid white;
+    border-radius: 2em;
     box-shadow: 0 0 0 0 white;
     transition: all 0.3s ease-in-out;
-    max-width: 90px;
-    max-height: 30px;
+}
+#submitbutton:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 rgb(195, 181, 221);
+}
+  
+#submitbutton:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
 }
 #commissions {
     height: 250px;
@@ -119,13 +145,4 @@ body {
 
 #commissionformouter {
     justify-content: center;
-    /* transform: skewX(5deg);
-    border: 1px solid white;
-    box-shadow: 0 0 0 0 white;
-    border-radius: 2em;
-    box-shadow: 20px 20px 0 -2.5px rgb(218, 167, 235), 20px 20px 0 0 #000;
-    min-width: 350px;
-    max-height: 400px; */
-
-
 }
