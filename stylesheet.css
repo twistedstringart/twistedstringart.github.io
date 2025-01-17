@@ -99,38 +99,33 @@ body {
     text-align: left;
 }
 #submitbuttoncontainer {
-
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 #submitbutton {
-    /* background-color: black;
+    background-color: black;
     color: white;
     transform: skewX(5deg);
     border: 1px solid white;
     box-shadow: 0 0 0 0 white;
     transition: all 0.3s ease-in-out;
-    padding: 5%;
-    max-width: 110px;
-    max-height: 50px; */
+    max-width: 90px;
+    max-height: 30px;
 }
 #commissions {
-    padding: 5%;
-    padding-inline: 5%;
     height: 250px;
     color: white;
 }
 
 #commissionformouter {
     justify-content: center;
-    padding-top: 5%;
-    padding-inline: 5%;
-    padding-bottom: 15%;
-    transform: skewX(5deg);
+    /* transform: skewX(5deg);
     border: 1px solid white;
     box-shadow: 0 0 0 0 white;
     border-radius: 2em;
     box-shadow: 20px 20px 0 -2.5px rgb(218, 167, 235), 20px 20px 0 0 #000;
     min-width: 350px;
-    max-height: 400px;
+    max-height: 400px; */
 
 
 }
